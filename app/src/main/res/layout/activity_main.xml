@@ -9,18 +9,37 @@
 
     <TextView
         android:id="@+id/nameTextView"
+        style="@style/TextStyle"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:paddingTop="@dimen/small_padding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/robert_golusinski"
-        style="@style/NameStyle" />
+        android:text="@string/robert_golusinski" />
 
     <ImageView
         android:id="@+id/starImageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:layout_marginTop="@dimen/layout_margin"
         android:contentDescription="@string/yellow_star"
-        android:layout_marginTop="@dimen/layout_margin" />
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ScrollView
+        android:id="@+id/bioScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/bioTextView"
+            style="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="@dimen/lineSpacingMultiplier"
+            android:text="@string/bio"
+            android:paddingStart="@dimen/small_padding"
+            android:paddingEnd="@dimen/small_padding" />
+
+    </ScrollView>
 
 </LinearLayout>
