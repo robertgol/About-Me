@@ -10,12 +10,41 @@
     <TextView
         android:id="@+id/nameTextView"
         style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/layout_margin"
         android:paddingTop="@dimen/small_padding"
+        android:text="@string/robert_golusinski"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/nicknameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_marginEnd="@dimen/layout_margin"
+        android:ems="10"
+        android:hint="@string/enter_your_nickname"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/doneButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/done"
         android:layout_gravity="center_horizontal"
-        android:text="@string/robert_golusinski" />
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:fontFamily="@font/roboto" />
+
+    <TextView
+        android:id="@+id/nicknameTextView"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:paddingTop="@dimen/small_padding"
+        android:textAlignment="center"
+        android:visibility="gone" />
 
     <ImageView
         android:id="@+id/starImageView"
@@ -36,9 +65,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lineSpacingMultiplier="@dimen/lineSpacingMultiplier"
-            android:text="@string/bio"
-            android:paddingStart="@dimen/small_padding"
-            android:paddingEnd="@dimen/small_padding" />
+            android:paddingStart="@dimen/padding"
+            android:paddingEnd="@dimen/padding"
+            android:text="@string/bio" />
 
     </ScrollView>
 

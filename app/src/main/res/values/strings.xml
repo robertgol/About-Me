@@ -6,4 +6,6 @@
 
 Duis eget venenatis lectus. In ac lacus viverra, aliquam nulla quis, pellentesque ex. Ut faucibus, orci viverra porta fringilla, nibh velit tempor nisl, quis dignissim mauris erat eu libero. Duis sollicitudin ac urna quis vestibulum. Mauris mauris odio, elementum vel dapibus id, rhoncus vel enim. Aliquam risus erat, porta eget libero eget, varius maximus orci. Integer mi est, congue at erat et, volutpat tincidunt justo. Sed pulvinar turpis vel pharetra tristique. Sed feugiat accumsan felis a lobortis. In vel ligula risus. Nunc nunc purus, finibus a aliquet eu, tincidunt sed turpis.
     </string>
+    <string name="enter_your_nickname">Enter your nickname</string>
+    <string name="done">Done</string>
 </resources>
